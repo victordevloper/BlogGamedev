@@ -12,6 +12,7 @@ import Goblin from './assets/imagens/Goblin.png'
 import HomemTuba from './assets/imagens/HomemTuba.png'
 import JackLantern from './assets/imagens/JackLantern.png'
 import Lobisomem from './assets/imagens/Lobisomem-export.png'
+import NewGoblin from './assets/imagens/GoblinPortfolio-export.gif'
 
 function App() {
 
@@ -52,6 +53,7 @@ function App() {
           <img src={HomemTuba} className='ImgApresentacao'/>
           <img src={JackLantern} className='ImgApresentacao'/>
           <img src={Lobisomem} className='ImgApresentacao'/>
+          <img src={NewGoblin} className='ImgApresentacao'/>
         </div>
       </div>
     </>
