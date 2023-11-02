@@ -6,111 +6,148 @@
   src: url('./assets/fonts/ModernSans-Light.otf');
 }
 
-html{
-  scroll-behavior: smooth;
-}
+  html{
+    scroll-behavior: smooth;
+  }
 
-*{
-  padding: 0;
-  margin: 0;
-}
+  *{
+    padding: 0;
+    margin: 0;
+  }
 
-body{
-  display: flex;
-  justify-content: center;
-  background-color: #303030;
-}
+  body{
+    display: flex;
+    justify-content: center;
+    background-color: #303030;
+  }
 
-h6{
-  margin: 15px;
-  font-family: 'Finish';
-  font-size: 50px;
-  color: #000;
-  font-weight: 300;
-}
+  h6{
+    margin: 15px;
+    font-family: 'Finish';
+    font-size: 50px;
+    color: #000;
+    font-weight: 300;
+  }
 
-a{
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 15px;
-  font-weight: 300;
-  margin: 20px;
-  text-decoration: none;
-  text-align: center;
-}
+  a{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+  }
 
-p{
-  color: #000;
-  font-family: 'Modern';
-  margin: 15px;
-  font-size: 20px;
-}
-
-.Jessie{
-  margin-top: 80px;
-  width: 900px;
-}
-
-.ImgApresentacao{
-  width: 260px;
-  margin: 20px;
-  border-radius: 20px;
-}
-
-.gamedev{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.Cabecalho{
-  display: flex;
-  position: fixed;
-  z-index: 1;
-  justify-content: space-between;
-  background: rgb(32,0,24);
-  background: linear-gradient(90deg, rgba(32,0,24,1) 0%, rgb(148, 26, 112) 50%, rgba(32,0,24,1) 100%); 
-  width: 900px;
-  height: 100px;
-}
-
-.Content{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 900px;
-  margin: 0;
-  padding: 0;
-  background-color:   #fff;
-}
-
-.menu{
-  display: flex;
-  justify-content: center;
-  height: 100px;
-  margin: 20px;
-}
-
-.logo{
-  width: 75px; 
-  padding: 12px; 
-}
-
-
-@media only screen and (max-width: 600px) {
-  .menu{
-    display: none;
+  p{
+    color: #000;
+    font-family: 'Modern';
+    margin: 15px;
+    font-size: 20px;
   }
 
   .Jessie{
-    padding: 12px;
-    width: 350px;
+    margin-top: 80px;
+    width: 900px;
+  }
+
+  .ImgApresentacao{
+    width: 260px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+
+  .gamedev{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .Cabecalho{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    justify-content: space-between;
+    background: rgb(32,0,24);
+    background: linear-gradient(90deg, rgba(32,0,24,1) 0%, rgb(148, 26, 112) 50%, rgba(32,0,24,1) 100%); 
+    width: 900px;
+    height: 100px;
+  }
+
+  .Content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 900px;
+    margin: 0;
+    padding: 0;
+    background-color:   #fff;
+  }
+
+  .social{
+    display: flex;
+    border-top: 1px solid #000;
+    justify-content: center;
+  }
+
+  .socialIcon{
+    color: #000;
+  }
+
+  .menu{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin: 20px;
+  }
+
+  .logo{
+    width: 75px; 
+    padding: 12px; 
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    /* Font faces */
+  @font-face {
+    font-family: 'Finish';
+    src: url('./assets/fonts/Finish.ttf');
+
+    font-family: 'Modern';
+    src: url('./assets/fonts/ModernSans-Light.otf');
+  }
+
+  /* Global styles */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
   }
   
-  h2{
-    font-size: 30px;
-    padding: 10px;
-    margin: 0;
-    font-weight: 300;
+  body{
+    display: block;
+    width: 100%;
   }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    background-color: #303030;
+  }
+
+  .Cabecalho{
+    z-index: 1;
+    position: fixed;
+    justify-content: center;
+  }
+
+  .content{
+    width: 600px;
+  }
+
 }

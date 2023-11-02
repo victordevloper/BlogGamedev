@@ -1,5 +1,6 @@
 import './App.css'
 import Logo from './assets/imagens/Logo.png';
+import { Instagram, Tiktok } from 'react-bootstrap-icons';
 
 //imagens
 import Jessie from './assets/imagens/JessieSemFiltro.png'
@@ -44,6 +45,9 @@ function App() {
         </div>
         <div id='pixel' className='pixel'>
           <h6>PixelArt</h6>
+          <img src={NewGoblin} className='ImgApresentacao'/>
+          <img src={JackLantern} className='ImgApresentacao'/>
+          <img src={Lobisomem} className='ImgApresentacao'/>
           <img src={Dudu} className='ImgApresentacao'/>
           <img src={Choco} className='ImgApresentacao'/>
           <img src={Dinossauro} className='ImgApresentacao'/>
@@ -51,9 +55,10 @@ function App() {
           <img src={Beholder} className='ImgApresentacao'/>
           <img src={Goblin} className='ImgApresentacao'/>
           <img src={HomemTuba} className='ImgApresentacao'/>
-          <img src={JackLantern} className='ImgApresentacao'/>
-          <img src={Lobisomem} className='ImgApresentacao'/>
-          <img src={NewGoblin} className='ImgApresentacao'/>
+        </div>
+        <div className='social'>
+          <a href=''><Instagram className='socialIcon'/></a>
+          <a href=''><Tiktok className='socialIcon'/></a>
         </div>
       </div>
     </>
